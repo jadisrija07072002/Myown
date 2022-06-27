@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:rgb(230, 18, 54);
+    height:50px;
+}
+nav{
+    display:flex;
+  }
+nav img{
+    width:50px;
+    height:auto;
+    padding:0 40px;
+}
+
+nav ul{
+    height:50px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    color:white;
+    list-style: none;
+    
+}
+nav ul li a{
+    color:white;
+    padding:0 30px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:blue;
+    font-weight:bold;
+    padding:0 30px;
+    
+}
+
+.search{
+    display:flex;
+    align-items:center;
+    
+}
+.search input{
+    display:flex;
+    height:20px;
+    width:250px;
+    margin: 0 16px 0 56px;
+    padding:5px;
+}
+.search button{
+    display:flex;
+    height:20px;
+    
+    cursor:pointer;
+}
+.container{
+    
+    min-height: calc(100vh - 50px - 12vh);
+}
+.slider{ 
+    width: 80vw;
+    margin: 12px auto;
+   overflow:auto;
+}
+.slider img{
+    width:80vw;
+    height:60vh;
+}
+
+
+.card{
+   max-width:91vw;
+   margin:30px auto;
+   
+   
+}
+.card-highlight{
+    display:flex;
+    overflow:scroll;
+}
+.my-2{
+    margin:10px 0;
+
+}
+.items {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 15px;
+   cursor:pointer;
+    
+}
+.my-1{
+    margin:5px 0;
+}
+.text-center {
+        text-align:center;
+        font-weight: bold;
+}
+footer{
+    Background-color:rgb(239, 85, 85);
+    color:white;
+    height:12vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
